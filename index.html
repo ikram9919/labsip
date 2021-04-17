@@ -27,6 +27,9 @@
 
         <!-- Template Main CSS File -->
         <link href="assets/css/style.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src='index.js'></script>
 
         <!-- =======================================================
         * Template Name: LabSipe - v2.1.0
@@ -529,92 +532,8 @@
 
 
             <!-- ======= Doctors Section ======= -->
-            <section id="doctors" class="doctors section-bg">
-                <div class="container" data-aos="fade-up">
-
-                    <div class="section-title">
-                        <h2>Chercheurs</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                            <div class="member" data-aos="fade-up" data-aos-delay="100">
-                                <div class="member-img">
-                                    <img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt="">
-                                    <div class="social">
-                                        <a href=""><i class="icofont-twitter"></i></a>
-                                        <a href=""><i class="icofont-facebook"></i></a>
-                                        <a href=""><i class="icofont-instagram"></i></a>
-                                        <a href=""><i class="icofont-linkedin"></i></a>
-                                    </div>
-                                </div>
-                                <div class="member-info">
-                                    <h4>A. Hajjaji</h4>
-                                    <span>Chef du laboratoire; Energétique</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                            <div class="member" data-aos="fade-up" data-aos-delay="200">
-                                <div class="member-img">
-                                    <img src="assets/img/doctors/doctors-2.jpg" class="img-fluid" alt="">
-                                    <div class="social">
-                                        <a href=""><i class="icofont-twitter"></i></a>
-                                        <a href=""><i class="icofont-facebook"></i></a>
-                                        <a href=""><i class="icofont-instagram"></i></a>
-                                        <a href=""><i class="icofont-linkedin"></i></a>
-                                    </div>
-                                </div>
-                                <div class="member-info">
-                                    <h4>B. Abouzaid</h4>
-                                    <span>Ingénierie mathématique</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                            <div class="member" data-aos="fade-up" data-aos-delay="300">
-                                <div class="member-img">    
-                                    <img src="assets/img/doctors/doctors-3.jpg" class="img-fluid" alt="">
-                                    <div class="social">
-                                        <a href=""><i class="icofont-twitter"></i></a>
-                                        <a href=""><i class="icofont-facebook"></i></a>
-                                        <a href=""><i class="icofont-instagram"></i></a>
-                                        <a href=""><i class="icofont-linkedin"></i></a>
-                                    </div>
-                                </div>
-                                <div class="member-info">
-                                    <h4>M. Achak</h4>
-                                    <span>Chimie</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                            <div class="member" data-aos="fade-up" data-aos-delay="400">
-                                <div class="member-img">
-                                    <img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt="">
-                                    <div class="social">
-                                        <a href=""><i class="icofont-twitter"></i></a>
-                                        <a href=""><i class="icofont-facebook"></i></a>
-                                        <a href=""><i class="icofont-instagram"></i></a>
-                                        <a href=""><i class="icofont-linkedin"></i></a>
-                                    </div>
-                                </div>
-                                <div class="member-info">
-                                    <h4>H. Amrani Souhli</h4>
-                                    <span>Mathématiques Appliquées</span>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </section><!-- End Doctors Section -->
+            <div id='images'></div>
+           <!-- End Doctors Section -->
 
             <!-- ======= Testimonials Section ======= -->
             <section id="testimonials" class="testimonials">
